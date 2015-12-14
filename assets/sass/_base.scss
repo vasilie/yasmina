@@ -1,0 +1,57 @@
+$color__primary--light: #FFF !default;
+$color__primary--lightgray: #e9e9e9 !default;
+$color__primary--dark: #2b2b2b !default;
+$color__primary--gold: #9e914c !default;
+$color__primary--gray: #dedede !default;
+
+
+$text__color--nav: #444 !default;
+$text__color--gold: #9e914c !default;
+$text__color--light: #fff !default;
+$text__color--dim: #bdbdbd !default;
+
+
+
+$text__family--KufiBold:  "NotoKufiArabicBold", Helvetica, Arial, sans-serif !default;
+$text__family--Nashk:  "NotoNashkBold", Helvetica, Arial, sans-serif !default;
+$text__family--nav:  "NotoNaskhArabicBold", Helvetica, Arial, sans-serif !default;
+$text__family--serif:  "NotoSerif", Helvetica, Arial, sans-serif !default;
+
+
+$base__font-size: 15 !default;
+$base__line: 20 !default;
+
+// @function calc-em($target, $context: $base__font-size) {
+//     @return ($target / $context) * 1em;
+// }
+html {
+    font-size: 15px;
+}
+@function calc-rem($target) {
+    @return ($target / 15) * 1rem;
+}
+
+@font-face {
+    font-family: NotoKufiArabicBold;
+    src: url(../../assets/font/NotoKufiArabic-Bold.ttf);
+}
+@font-face {
+    font-family: NotoNaskhArabicBold;
+    src: url(../../assets/font/NotoNaskhArabic-Bold.ttf);
+}
+@font-face {
+    font-family: NotoSerif;
+    src: url(../../assets/font/NotoSerif-Regular.ttf);
+}
+@font-face {
+    font-family: NotoNashkBold;
+    src: url(../../assets/font/NotoNaskhArabic-Regular.ttf);
+}
+@font-face {
+    font-family: NotoKufiArabicBold;
+    src: url(assets/font/NotoKufiArabic-Bold);
+}
+@font-face {
+    font-family: NotoKufiArabicBold;
+    src: url(assets/font/NotoKufiArabic-Bold);
+}

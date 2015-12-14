@@ -1,0 +1,46 @@
+.header {
+	width:100%;
+}
+.banner {
+	width:100%;
+	float:left;
+	
+	img {
+		width:100%;
+		
+	}
+}
+.logo {
+	float: left;
+	width: 100%;
+}
+.nav {
+	width:100%;
+	list-style-type: square;
+	text-align: center;
+    float: left;
+}
+.nav__item {
+	display: inline-block;
+	color: #444;
+	font-weight: bold;
+	padding: 0 15px;
+	background-image: url(../../assets/img/bullet__square--gold.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 45px;
+	line-height: 45px;
+}
+.nav__link{
+	text-decoration: none;
+	color:$text__color--nav;
+	
+}
+.nav__link:hover {
+	color:$text__color--gold;
+}
+.media__text {
+	float: left;
+	margin-top: 30px;
+	font-size: 1vw;
+}
