@@ -98,6 +98,8 @@
 }
 .box--brand {
 	color:$text__color--dim;
+	font-family:$text__family--KufiBold;
+	font-size:1vw;
 	.line--right:before {
 		top:7px;
 	}
@@ -112,11 +114,12 @@
 	float: right;
 }
 .box__button {
-	height:20px;
+	height:22px;
 	background: $color__primary--gold;
 	color:$text__color--light;
 	float: right;
-	padding: 5px;
+	padding: 6px 14px;
+    font-size: 13px;
 	line-height: 9px;
 	float:right;
 }   
@@ -191,7 +194,7 @@
 }
 .link:before {
 	font-family: "Arial", sans-serif;
-    content: "»" !important;
+    content: "«" !important;
 }
 .link--centered {
 	@extend .link;
@@ -228,6 +231,8 @@
 	font-size: 1vw;
     line-height: 29px;
     color: #6c6c6c;
+    font-family: $text__family--NashkRegular;
+    line-height: 22px;
     margin-bottom: 20px;
 }
 .link-box {

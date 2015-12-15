@@ -201,7 +201,9 @@ h1, h2, h3, h4, h5 {
   color: #444444; }
 
 .box--brand {
-  color: #bdbdbd; }
+  color: #bdbdbd;
+  font-family: "NotoKufiArabicBold", Helvetica, Arial, sans-serif;
+  font-size: 1vw; }
   .box--brand .line--right:before {
     top: 7px; }
 
@@ -215,11 +217,12 @@ h1, h2, h3, h4, h5 {
   float: right; }
 
 .box__button {
-  height: 20px;
+  height: 22px;
   background: #9e914c;
   color: white;
   float: right;
-  padding: 5px;
+  padding: 6px 14px;
+  font-size: 13px;
   line-height: 9px;
   float: right; }
 
@@ -280,7 +283,7 @@ h1, h2, h3, h4, h5 {
 
 .link:before, .link--centered:before {
   font-family: "Arial", sans-serif;
-  content: "»" !important; }
+  content: "«" !important; }
 
 .link--centered {
   width: 100%;
@@ -314,6 +317,8 @@ h1, h2, h3, h4, h5 {
   font-size: 1vw;
   line-height: 29px;
   color: #6c6c6c;
+  font-family: "NotoNashkRegular", Helvetica, Arial, sans-serif;
+  line-height: 22px;
   margin-bottom: 20px; }
 
 .link-box {
@@ -646,7 +651,8 @@ h1, h2, h3, h4, h5 {
 .footer--end {
   float: right;
   width: 100%;
-  padding: 1% 10% 40%; }
+  padding: 1% 10% 40%;
+  position: relative; }
   .footer--end div {
     float: right; }
 
@@ -668,6 +674,15 @@ h1, h2, h3, h4, h5 {
 
 .footer__logo > img {
   width: 80%; }
+
+.copyright {
+  width: 100%;
+  position: absolute;
+  top: 25px;
+  left: 0; }
+  .copyright p {
+    width: 100%;
+    text-align: center; }
 
 @media screen and (max-width: 1024px) {
   .section {
