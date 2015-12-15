@@ -21,9 +21,7 @@ $text__family--serif:  "NotoSerif", Helvetica, Arial, sans-serif !default;
 $base__font-size: 15 !default;
 $base__line: 20 !default;
 
-// @function calc-em($target, $context: $base__font-size) {
-//     @return ($target / $context) * 1em;
-// }
+
 html {
     font-size: 15px;
 }

@@ -64,10 +64,10 @@
 	border-bottom: 1px solid $color__primary--gray;
 	.author {
 		color:$text__color--gold;
-		font-size: calc-rem(20);
 		padding: 20px 0;
 		display: block;
 	    font-weight: bold;
+	    font-size: 1.2vw;
 	}
 	img {
 		width: 100%;
@@ -96,7 +96,12 @@
 	font-weight:bold;
 	color:$text__color--nav;
 }
-
+.box--brand {
+	color:$text__color--dim;
+	.line--right:before {
+		top:7px;
+	}
+}
 .box__vertical, .box__vertical--top, .box__vertical--bottom {
 	float: left;
 	width:100%;
@@ -116,7 +121,7 @@
 	float:right;
 }   
 .box__centered {
-	padding: 25px 20px 0 20px;
+	padding: 16px 15px 0 16px;
     text-align: center;
   	.box__text {
 		padding: 20px 0;
@@ -130,8 +135,9 @@
 	}
 }
 .box__centered img {
-	width:100%;
-	margin-bottom: 40px;
+	width: 100%;
+    margin-bottom: 18px;
+
 }
 .box--dark {
 	.box__text, h2 {
@@ -201,7 +207,6 @@
 	padding: 0 3%;
 }
 .box__division--left {
-	padding-left:0;
 }
 .box__division .box__text {
 	font-size:14px;
@@ -229,7 +234,7 @@
 	width:100%;
 	background: #e9e9e9;
 	text-align:center;
-	padding-bottom: 33px;
+	padding-bottom: 8px;
 	ul {
 		margin-bottom: 20px;
 	}
@@ -249,6 +254,9 @@
     font-family: NotoNaskhArabicBold;
     font-weight: normal;
     line-height: 23px;
+}
+.link-box__item--last {
+	margin-bottom:40px;
 }
 .sponsor, .nmb {
 	font-family: NotoSerif;
@@ -273,6 +281,7 @@
 	border-bottom:1px solid $color__primary--gold;
 	font-family:$text__family--Nashk;
 	font-size: 0.86vw;
+	margin-left: 1%;
 
 }
 .box--no-vertical-padding {
@@ -284,4 +293,169 @@
 }
 .box--margin-bottom {
 	margin-bottom:40px;
+}
+.small-media__text {
+	float: right !important;
+	margin-right: 1vw;
+	padding-top: 21px;
+	width: 60%;
+}
+.small-media__img {
+	float:right !important;
+	width:26% !important;
+}
+.box__small-media {
+	width: 100%;
+    float: left;
+    margin-top: 24px;
+}
+.menu__icon {
+	display:none;
+}
+.search {
+	display:none;
+}
+.media__headline {
+	color: $color__primary--gold;
+	text-align:center;
+	width:100%;
+	float:left;
+	margin-top: 30px;
+	text-decoration: underline;
+}
+.media__text {
+	float: left;
+	margin-top: 30px;
+	font-size: 1vw;
+	color:$text__color--nav;
+}
+.media__links {
+	margin-top:20px;
+	float:left;
+	line-height:24px;
+}
+.media__link {
+	color:$color__primary--gold;
+	display:inline;
+	margin-left: 25px;
+	margin-top:30px;
+}
+.main__heading {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 1.3vw;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	color:$text__color--nav;
+}
+.main__author {
+	width: 264px;
+	display: block;
+	float: left;
+	position: relative;
+	left: calc((100% - 243px)/2);
+	margin-bottom: 18px;
+	.date {
+		color:$text__color--dim;
+		padding-right:5px;
+		font-size: 0.8vw;
+		float: left;
+		border-right:1px solid $text__color--dim;
+		padding-top: 2px;
+		font-family: $text__family--serif;
+	}
+	.author {
+		color:$color__primary--gold;
+		padding:0 8px;
+		float: left;
+	}
+	.category {
+		padding-left:5px;
+		color:$color__primary--gold;
+		float: left;
+		border-left:1px solid $text__color--dim;
+	}
+	.img__wrapper {
+		width: 20px;
+		height: 20px;
+		-webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-o-border-radius: 50%;
+		border-radius: 50%;
+		float: left;
+		margin-left: 7px;
+		overflow: hidden;
+		top: -1px;
+		position:relative;
+		img {
+			width: 100%;
+		}
+	}
+	p {
+		float: left;
+	}
+}
+.main__social-wrapper {
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 24px;
+	text-align: center;
+	width: 100%;
+	img {
+		float: none;
+	}
+}
+.comments {
+	text-align:right;
+	color:$text__color--nav;
+	 font-size: 1vw;
+}
+.comment {
+	padding-bottom: 30px;
+	border-bottom: 1px solid $color__primary--lightgray;
+}
+.comment__heading {
+    font-size: 1.3vw;
+    margin-bottom: 13px;
+}
+.comment__author {
+	color:$text__color--gold;
+	font-size: 1.1vw;
+    margin-bottom: 13px;
+}
+.nav__item--static {
+	display:none;
+}
+.name {
+	width:100%;
+	font-size: 1.1vw;
+    margin-bottom: 20px;
+    text-align: right;
+    color:$text__color--nav;
+    margin-top: 20px;
+}
+.input-box {
+	width:100%;
+	border:1px solid $text__color--dim;
+	height:100px;
+}
+.input__wrapper {
+	width:70%;
+	float: left;
+}
+.author_img {
+	float: left !important;
+	margin-left: 10px;
+}
+.post-comment__button {
+	line-height: 50px;
+	text-align: center;
+	width: 93px;
+	float: right;
+	margin-top: 20px;
+	background: $color__primary--gold;
+	color:$text__color--light;
+	font-weight:bold;
 }
