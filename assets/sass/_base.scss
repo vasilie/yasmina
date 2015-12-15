@@ -13,7 +13,8 @@ $text__color--dim: #bdbdbd !default;
 
 
 $text__family--KufiBold:  "NotoKufiArabicBold", Helvetica, Arial, sans-serif !default;
-$text__family--Nashk:  "NotoNashkBold", Helvetica, Arial, sans-serif !default;
+$text__family--NashkBold:  "NotoNashkBold", Helvetica, Arial, sans-serif !default;
+$text__family--NashkRegular:  "NotoNashkRegular", Helvetica, Arial, sans-serif !default;
 $text__family--nav:  "NotoNaskhArabicBold", Helvetica, Arial, sans-serif !default;
 $text__family--serif:  "NotoSerif", Helvetica, Arial, sans-serif !default;
 
@@ -46,8 +47,8 @@ html {
     src: url(../../assets/font/NotoNaskhArabic-Regular.ttf);
 }
 @font-face {
-    font-family: NotoKufiArabicBold;
-    src: url(assets/font/NotoKufiArabic-Bold);
+    font-family: NotoNashkRegular;
+    src: url(../../assets/font/NotoNaskhArabic-Regular.ttf);
 }
 @font-face {
     font-family: NotoKufiArabicBold;

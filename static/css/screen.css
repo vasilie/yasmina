@@ -5,21 +5,27 @@ html {
 @font-face {
   font-family: NotoKufiArabicBold;
   src: url(../../assets/font/NotoKufiArabic-Bold.ttf); }
+
 @font-face {
   font-family: NotoNaskhArabicBold;
   src: url(../../assets/font/NotoNaskhArabic-Bold.ttf); }
+
 @font-face {
   font-family: NotoSerif;
   src: url(../../assets/font/NotoSerif-Regular.ttf); }
+
 @font-face {
   font-family: NotoNashkBold;
   src: url(../../assets/font/NotoNaskhArabic-Regular.ttf); }
+
+@font-face {
+  font-family: NotoNashkRegular;
+  src: url(../../assets/font/NotoNaskhArabic-Regular.ttf); }
+
 @font-face {
   font-family: NotoKufiArabicBold;
   src: url(assets/font/NotoKufiArabic-Bold); }
-@font-face {
-  font-family: NotoKufiArabicBold;
-  src: url(assets/font/NotoKufiArabic-Bold); }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -103,7 +109,7 @@ h1, h2, h3, h4, h5 {
 
 .nav__link {
   text-decoration: none;
-  color: #444; }
+  color: #444444; }
 
 .nav__link:hover {
   color: #9e914c; }
@@ -192,7 +198,7 @@ h1, h2, h3, h4, h5 {
   padding: 0 0;
   padding-bottom: 10%;
   font-weight: bold;
-  color: #444; }
+  color: #444444; }
 
 .box--brand {
   color: #bdbdbd; }
@@ -211,7 +217,7 @@ h1, h2, h3, h4, h5 {
 .box__button {
   height: 20px;
   background: #9e914c;
-  color: #fff;
+  color: white;
   float: right;
   padding: 5px;
   line-height: 9px;
@@ -233,7 +239,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 18px; }
 
 .box--dark .box__text, .box--dark h2 {
-  color: #fff; }
+  color: white; }
 
 .box--narrow {
   width: 83.14815%; }
@@ -274,7 +280,7 @@ h1, h2, h3, h4, h5 {
 
 .link:before, .link--centered:before {
   font-family: "Arial", sans-serif;
-  content: "┬╗" !important; }
+  content: "»" !important; }
 
 .link--centered {
   width: 100%;
@@ -349,7 +355,7 @@ h1, h2, h3, h4, h5 {
   text-align: right;
   font-size: 1.4vw;
   padding: 3.2% 0 2.4%;
-  color: #FFF;
+  color: white;
   font-family: "NotoKufiArabicBold", Helvetica, Arial, sans-serif; }
 
 .section__link--left {
@@ -405,7 +411,9 @@ h1, h2, h3, h4, h5 {
   float: left;
   margin-top: 30px;
   font-size: 1vw;
-  color: #444; }
+  color: #444444;
+  font-family: "NotoNashkRegular", Helvetica, Arial, sans-serif;
+  width: 100%; }
 
 .media__links {
   margin-top: 20px;
@@ -425,7 +433,7 @@ h1, h2, h3, h4, h5 {
   font-size: 1.3vw;
   margin-top: 10px;
   margin-bottom: 25px;
-  color: #444; }
+  color: #444444; }
 
 .main__author {
   width: 264px;
@@ -480,7 +488,7 @@ h1, h2, h3, h4, h5 {
 
 .comments {
   text-align: right;
-  color: #444;
+  color: #444444;
   font-size: 1vw; }
 
 .comment {
@@ -504,7 +512,7 @@ h1, h2, h3, h4, h5 {
   font-size: 1.1vw;
   margin-bottom: 20px;
   text-align: right;
-  color: #444;
+  color: #444444;
   margin-top: 20px; }
 
 .input-box {
@@ -527,20 +535,20 @@ h1, h2, h3, h4, h5 {
   float: right;
   margin-top: 20px;
   background: #9e914c;
-  color: #fff;
+  color: white;
   font-weight: bold; }
 
 .footer {
   width: 100%;
   float: left;
-  color: #444; }
+  color: #444444; }
 
 .contact-us {
   background: #2b2b2b; }
 
 .contact-us__heading, .footer__heading {
   text-align: center;
-  color: #FFF;
+  color: white;
   padding: 3vw 20px 0;
   font-size: 1.3vw; }
 
@@ -551,7 +559,7 @@ h1, h2, h3, h4, h5 {
   padding: 0.9vw;
   line-height: 22px;
   font-size: 1vw;
-  color: #FFF;
+  color: white;
   font-family: "NotoNashkBold", Helvetica, Arial, sans-serif; }
 
 .contact-us__input {
@@ -836,5 +844,3 @@ h1, h2, h3, h4, h5 {
 
   .main__heading {
     font-size: 4.3vw; } }
-
-/*# sourceMappingURL=screen.css.map */

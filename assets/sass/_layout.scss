@@ -279,7 +279,7 @@
 	color:$color__primary--gold;
 	padding-bottom: 6px;
 	border-bottom:1px solid $color__primary--gold;
-	font-family:$text__family--Nashk;
+	font-family:$text__family--NashkBold;
 	font-size: 0.86vw;
 	margin-left: 1%;
 
@@ -328,6 +328,8 @@
 	margin-top: 30px;
 	font-size: 1vw;
 	color:$text__color--nav;
+	font-family:$text__family--NashkRegular;
+	width:100%;
 }
 .media__links {
 	margin-top:20px;
