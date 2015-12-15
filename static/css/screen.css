@@ -697,7 +697,8 @@ h1, h2, h3, h4, h5 {
     padding: 0; }
 
   .box__horizontal {
-    padding-right: 5%; }
+    padding-right: 5%;
+    padding: 10px; }
 
   .box__text {
     font-size: 4.5vw;
@@ -807,10 +808,14 @@ h1, h2, h3, h4, h5 {
 
   .media__text {
     font-size: 3.5vw;
-    line-height: 17px; }
+    line-height: 17px;
+    padding: 0 12px; }
 
   .box .article {
     display: none; }
+
+  .media__links {
+    padding: 0 12px; }
 
   .footer__section-heading {
     font-size: 3vw;
@@ -843,6 +848,7 @@ h1, h2, h3, h4, h5 {
 
   .footer__logo {
     width: 100%;
+    margin-top: 14px;
     text-align: center; }
 
   .footer__logo > img {
